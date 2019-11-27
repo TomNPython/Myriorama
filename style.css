@@ -1,0 +1,81 @@
+body {
+    background-image: url('./imgs/wood-background.jpg');
+    color: white
+}
+
+button {
+    color: white;
+    background: inherit;
+    margin: 10px
+}
+
+.container {
+    text-align: center;
+}
+
+.pre-slide {
+    opacity: 0
+}
+
+.slide {
+    animation: slide-in 1s forwards;
+}
+
+.hidden {
+    display: none
+}
+
+.slide:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.slide:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.slide:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.slide:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.slide:nth-child(5) {
+    animation-delay: 1s;
+}
+
+.slide:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0
+    }
+    100% { 
+        transform: translateX(0px);
+        opacity: 1
+    }
+}
+
+.slide-out {
+    animation: slideOut 1s forwards;
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(0px);
+        opacity: 1
+    }
+    99% {
+        transform: translateX(-999px);
+        opacity: 0.01
+    }
+    100% {
+        transform: translateX(-1000px);
+        opacity: 0;
+        display: none
+    }
+}
