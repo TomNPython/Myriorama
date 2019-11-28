@@ -2,8 +2,9 @@ An array of images forming a Myriorama when arranged. The user can rearrange the
 
 ToDo:
 - ~fix styling~
-- prevent repeat images
+- ~prevent repeat images~
 - ~add transitions~
 - ~add description on page~
 - add more cards
-- disable shuffle during animations
+- ~disable shuffle during animations~
+- improve responsiveness on small screens

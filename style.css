@@ -3,6 +3,21 @@ body {
     color: white
 }
 
+.card {
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    padding: 0px;
+    margin: 0px
+}
+
+.card:first-child {
+    border-left: 3px solid brown
+}
+
+.card:last-child {
+    border-right: 3px solid brown
+}
+
 button {
     color: white;
     background: inherit;
