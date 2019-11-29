@@ -1,5 +1,5 @@
 // show gallery of 6 images in random order, rearranged on button press
-//fade in/out transitions one after the other to simulate laying down of cards
+// fade in/out transitions one after the other to simulate laying down of cards
 
 // Card images 
 
@@ -10,6 +10,10 @@ const myrioramaImages = [
     './imgs/myriorama4.png',
     './imgs/myriorama5.png',
     './imgs/myriorama6.png',
+    './imgs/myriorama7.png',
+    './imgs/myriorama8.png',
+    './imgs/myriorama9.png',
+    './imgs/myriorama10.png',
 ]
 
 //Elements

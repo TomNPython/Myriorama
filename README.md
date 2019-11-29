@@ -5,6 +5,6 @@ ToDo:
 - ~prevent repeat images~
 - ~add transitions~
 - ~add description on page~
-- add more cards
+- ~add more cards~
 - ~disable shuffle during animations~
 - improve responsiveness on small screens
