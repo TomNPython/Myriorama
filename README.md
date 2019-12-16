@@ -1,5 +1,7 @@
 An array of images forming a Myriorama when arranged. The user can rearrange the images to tell a new story with one click.
 
+https://tomnpython.github.io/Myriorama/
+
 ToDo:
 - ~fix styling~
 - ~prevent repeat images~
